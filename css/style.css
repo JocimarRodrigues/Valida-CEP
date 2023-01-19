@@ -1,0 +1,94 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(360deg, #030303 10%, #1f1f1f 360%);
+  font-family: "Montserrat", sans-serif;
+}
+
+
+.principal h1 {
+  font-size: 40pt;
+  color: yellowgreen;
+}
+
+.principal input {
+  text-align: center;
+  width: 500px;
+  margin-top: 1.5vh;
+  padding: 20px;
+  font-size: 30pt;
+  border-radius: 40px;
+  border: none;
+  transition: 1s;
+}
+
+.principal .buscar {
+  align-items: center;
+  width: 200px;
+  margin-left: 5px;
+}
+
+.buscar:hover {
+  background: blue;
+}
+
+.principal p {
+  color: white;
+  font-size: 30pt;
+  margin-top: 2vh;
+}
+
+#resposta {
+  color: blueviolet;
+}
+
+#resposta table {
+  font-size: 20pt;
+  color: white;
+}
+
+#resposta table td {
+  font-size: 20pt;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.tabela-superior {
+  background: rgb(20, 109, 243);
+  color: #0b0211;
+}
+
+.tabela-inferior {
+  color: yellowgreen;
+}
+
+#btn-voltar {
+  width: 15vh;
+  height: 6vh;
+  margin-top: 3vh;
+  border-radius: 29px;
+  font-size: 19pt;
+  transition: 1s;
+}
+
+#btn-voltar:hover {
+  background: blue;
+  color: white;
+}
+
+@media screen {
+    table {
+        margin: 20px;
+    }
+    #btn-voltar {
+        border-radius: 70px;
+    }
+}
+
+
+
