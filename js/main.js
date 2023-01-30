@@ -1,5 +1,6 @@
 document.querySelector("#enviar").addEventListener("click", validaCep);
 
+
 async function validaCep() {
   let mensagemErro = document.getElementById("erro");
   mensagemErro.innerHTML = "";

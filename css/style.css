@@ -1,4 +1,5 @@
 body {
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -9,6 +10,7 @@ body {
   background: linear-gradient(360deg, #030303 10%, #1f1f1f 360%);
   font-family: "Montserrat", sans-serif;
 }
+
 
 
 .principal h1 {
@@ -27,11 +29,24 @@ body {
   transition: 1s;
 }
 
+
+
 .principal .buscar {
   align-items: center;
+  background-position: center;
   width: 200px;
-  margin-left: 5px;
 }
+
+#cep::placeholder {
+  background-image: url(../imagens/icon-busca.png);
+}
+
+.buscar {
+  font-weight: 500;
+  background: yellowgreen
+}
+
+
 
 .buscar:hover {
   background: blue;
@@ -42,6 +57,8 @@ body {
   font-size: 30pt;
   margin-top: 2vh;
 }
+
+
 
 #resposta {
   color: blueviolet;
@@ -72,8 +89,9 @@ body {
   height: 6vh;
   margin-top: 3vh;
   border-radius: 29px;
-  font-size: 19pt;
+  font-size: 3vh;
   transition: 1s;
+  font-weight: bold;
 }
 
 #btn-voltar:hover {
