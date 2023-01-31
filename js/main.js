@@ -6,7 +6,9 @@ async function validaCep() {
   mensagemErro.innerHTML = "";
   try {
     cep = document.getElementById("cep").value;
-    let consultaCep = await fetch(`https://viacep.com.br/ws/${cep}/json/`);
+    cepConvertido = cep.replace(/\.|-/g, "")
+    console.log(cepConvertido)
+    let consultaCep = await fetch(`https://viacep.com.br/ws/${cepConvertido}/json/`);
     let consultaCepConvertida = await consultaCep.json();
 
     if (consultaCepConvertida.erro) {

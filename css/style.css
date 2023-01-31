@@ -1,7 +1,6 @@
 body {
   
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -11,11 +10,14 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-
+.principal {
+ 
+}
 
 .principal h1 {
   font-size: 40pt;
   color: yellowgreen;
+  margin: 0;
 }
 
 .principal input {

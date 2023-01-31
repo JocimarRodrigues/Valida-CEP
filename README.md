@@ -4,10 +4,6 @@
 - [Clique aqui para acessar o projeto](https://jocimarrodrigues.github.io/Buscador-De-CEP/)
 
 ## Imagens
-![imagem_2023-01-19_125511020](https://user-images.githubusercontent.com/116130103/213490078-0dd73d60-14e1-46bf-8bb8-7f34c309b98e.png)
+![imagem_2023-01-19_125511020](https://user-images.githubusercontent.com/116130103/215649644-9ac535ff-f651-4880-b960-fb47596e8377.png)
 
 ![imagem_2023-01-19_125522846](https://user-images.githubusercontent.com/116130103/213490126-4c5ecd3a-95c4-47da-8a27-5d6aa5f789d2.png)
-
-
-
-Buscador-De-CEP
